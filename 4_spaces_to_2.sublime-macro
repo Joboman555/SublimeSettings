@@ -1,0 +1,20 @@
+[
+	{
+		"args": null,
+		"command": "select_all"
+	},
+	{
+		"args":
+		{
+			"set_translate_tabs": true
+		},
+		"command": "unexpand_tabs"
+	},
+	{
+		"args":
+		{
+			"set_translate_tabs": true
+		},
+		"command": "expand_tabs"
+	}
+]

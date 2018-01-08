@@ -1,0 +1,2 @@
+Gocode pkg: "github.com/user/stringutil"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/go/pkg/linux_amd64:/home/jspear/Development/go/pkg/linux_amd64", GOOS:"linux", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/go", GOPATH:"/home/jspear/Development/go", InstallSuffix:""}

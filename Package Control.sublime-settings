@@ -1,0 +1,39 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"3D Tool (Async Burst-Mode)",
+		"A File Icon",
+		"All Autocomplete",
+		"AppendSemiColon",
+		"Babel",
+		"BracketHighlighter",
+		"Case Conversion",
+		"Color Highlighter",
+		"Emmet",
+		"FindKeyConflicts",
+		"Flow",
+		"GitGutter",
+		"GoSublime",
+		"Indent and braces",
+		"JsPrettier",
+		"Material Theme",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-contrib-verilator",
+		"SublimeLinter-flow",
+		"SublimeLinter-pep8",
+		"Sublimerge 3",
+		"Verilog",
+		"Whitespace"
+	]
+}

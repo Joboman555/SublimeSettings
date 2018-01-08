@@ -1,0 +1,10 @@
+{
+  "high_visibility_enabled_by_default": false,
+  "auto_selection_threshold" : 20,
+  "search_threshold": 200000,
+  "show_in_minimap": true,
+  "content_highlight_bar": true,
+  "align_content_highlight_bar": true,
+  "show_offscreen_bracket_popup": true,
+}
+

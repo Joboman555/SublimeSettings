@@ -1,0 +1,49 @@
+
+[
+
+  {
+    "button": "button1",
+    "modifiers": ["shift"],
+    "press_command": "drag_select",
+    "command": "goto_definition"
+  },
+
+  { "keys": ["ctrl+i"], "command": "indent_and_braces" },
+
+
+  { "keys": ["super+ctrl+1"], "command": "set_setting", "args": {"setting": "tab_size", "value": 1} },
+  { "keys": ["super+ctrl+3"], "command": "set_setting", "args": {"setting": "tab_size", "value": 3} },
+  { "keys": ["super+ctrl+2"], "command": "set_setting", "args": {"setting": "tab_size", "value": 2} },
+  { "keys": ["super+ctrl+4"], "command": "set_setting", "args": {"setting": "tab_size", "value": 4} },
+  {
+     "button": "button1",
+     "count": 1,
+     "modifiers": ["ctrl"],
+     "press_command": "drag_select",
+     "command": "flowtype_goto_definition",
+     "context": [
+         { "key": "selector", "operator": "equal", "operand": "source.js" }
+     ]
+ },
+ { "keys": ["ctrl+alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+ { "keys": ["ctrl+alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+ { "keys": ["ctrl+alt+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+ { "keys": ["ctrl+alt+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+ {
+     "button": "button2",
+     "count": 1,
+     "modifiers": ["ctrl"],
+     "press_command": "drag_select",
+     "command": "flowtype_view_type",
+     "context": [
+         { "key": "selector", "operator": "equal", "operand": "source.js" }
+     ]
+ },
+ {
+     "keys": [
+         "ctrl+u"
+     ],
+     "command": "soft_undo"
+ },
+ {"keys": ["ctrl+shift+]"], "command": "reindent", "args": {"single_line": false}},
+]
